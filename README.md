@@ -28,3 +28,7 @@ When joining a new team, you will be expected to inspect a lot of code that you 
 GIVEN a Node.js application using Sequelize and Passport
 WHEN I follow the walkthrough
 THEN I understand the codebase
+
+Server.js 
+
+This file provides the code to make a call to the server using JS's express package.  We call the server and then receive a response from that call. We need to create a variable to call the express package.We also require the routes used in the app.  We also set up a port, which is used to call the server and we call a variable used to sync our models. 
