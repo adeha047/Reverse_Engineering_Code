@@ -32,3 +32,8 @@ THEN I understand the codebase
 Server.js 
 
 This file provides the code to make a call to the server using JS's express package.  We call the server and then receive a response from that call. We need to create a variable to call the express package.We also require the routes used in the app.  We also set up a port, which is used to call the server and we call a variable used to sync our models. 
+
+html-routes.js
+
+This route is used to connect our routes to the html files in our pulic folder. The html route responds to a particular endpoint (html) using a request method. This could be a GET, POST, PUT, and DELETE method. It then directs this request to the html page of its choice with an if statement that calls on the response received from our middleware, which in this case is the isAuthenticated middleware. 
+
