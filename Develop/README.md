@@ -52,3 +52,4 @@ This file enables the mySQL database and provides us with a connection between o
 package.json 
 
 The package.json file stores all the packages used in the app. 
+
