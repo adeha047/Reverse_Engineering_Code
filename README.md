@@ -37,3 +37,14 @@ html-routes.js
 
 This route is used to connect our routes to the html files in our pulic folder. The html route responds to a particular endpoint (html) using a request method. This could be a GET, POST, PUT, and DELETE method. It then directs this request to the html page of its choice with an if statement that calls on the response received from our middleware, which in this case is the isAuthenticated middleware. 
 
+api-routes.js
+
+This route is used to display how an application responds to a client request from a particular endpoint/API using the 'app' express instance, which is used for running the server and initializing the different routes methods. It also interacts with the models files (index.js/user.js) to manipulate or edit the data received from the user. 
+
+isAuthenticated.js 
+
+This is the middleware, which is the request intercept checkpoint or stop, between the request and the database storing the data provided by the user in their request. 
+
+config.json
+
+This file enables the mySQL database and provides us with a connection between our app and our database in mySQL. 
